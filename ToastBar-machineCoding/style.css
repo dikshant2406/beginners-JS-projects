@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7edff;
+}
+
+#toastBox {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+.toast {
+    margin: 2px;
+    border: 1px red solid;
+    height: 40px ;
+    width: 200px;
+    animation: anim 5s linear forwards;
+}

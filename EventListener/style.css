@@ -1,0 +1,17 @@
+.grandfather {
+    height: 500px ;
+    width: 500px;
+    background-color: orange;
+}
+
+.parent {
+    height: 300px ;
+    width: 300px ;
+    background-color: greenyellow;
+}
+
+.child {
+    height: 100px ;
+    width: 100px ;
+    background-color: bisque;
+}
